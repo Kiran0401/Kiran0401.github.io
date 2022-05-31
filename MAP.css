@@ -1,0 +1,77 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("road.png") no-repeat;
+  background-color: #000;
+  }
+}@media screen and (max-width: 960px) { body {
+  background-color: #076412;
+  }
+  .title{
+    width:200px;
+    height:200px;
+    color:#fff;
+    position: relative;
+    left:0px;
+    top:180px;
+    font-size: 80px;
+  }}
+  @media screen and (max-width: 768px) { body {
+    background-color: #e86721;
+    }
+    .title{
+      width:200px;
+      height:200px;
+      color:#fff;
+      position: relative;
+      left:0px;
+      top:180px;
+      font-size: 80px;
+    }}
+    @media screen and (max-width: 550px) { body {
+      background-color: #0d0764;
+      }
+      .title{
+        width:200px;
+        height:200px;
+        color:#fff;
+        position: relative;
+        left::300px;
+        top:180px;
+        font-size: 80px;
+      }}
+
+.title{
+  width:200px;
+  height:200px;
+  color:#e8e6a6;
+  position: absolute;
+  right:300px;
+  top:180px;
+  font-size: 80px;
+}
+
+button1{
+  position: absolute;
+  left:200px;
+  top:27px;
+  border-radius: 50%;
+}
+
+button2{
+  position: absolute;
+  left:300px;
+  top:80px;
+  border-radius: 50%;
+}
+
+button3{
+  position: absolute;
+  left:370px;
+  top:150px;
+  border-radius: 50%;
+}
