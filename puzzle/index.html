@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Puzzle page</title>
+  <script src="puzzle.js"></script>
+  <link rel="stylesheet" href="puzzle.css">
+</head>
+<body background="灯会.jpg">
+  <h1>花灯谜</h1>
+  <h2 style="text-align:center; color: white">点击花灯，选择灯谜</h2>
+
+  <style type="text/css">
+    button1{
+      width:30px;
+      height:120px;
+      border:orange solid;
+      left:210px;
+      top:160px;
+      position: absolute;
+      font-size:28px;
+      text-align:center;
+      font-weight:bold;
+    }
+    button2{
+      width:30px;
+      height:120px;
+      border:orange solid;
+      left:85px;
+      top:400px;
+      position: absolute;
+      font-size:28px;
+      text-align:center;
+      font-weight:bold;
+    }
+    button3{
+      width:25px;
+      height:100px;
+      border:orange solid;
+      left:430px;
+      top:325px;
+      position: absolute;
+      font-size:23px;
+      text-align:center;
+      font-weight:bold;
+    }
+    button4{
+      width:15px;
+      height:60px;
+      border:orange solid;
+      left:642px;
+      top:215px;
+      position: absolute;
+      font-size:13px;
+      text-align:center;
+      font-weight:bold;
+    }
+    button5{
+      width:20px;
+      height:80px;
+      border:orange solid;
+      right:435px;
+      top:160px;
+      position: absolute;
+      font-size:18px;
+      text-align:center;
+      font-weight:bold;
+    }
+    button6{
+      width:20px;
+      height:80px;
+      border:orange solid;
+      right:75px;
+      top:320px;
+      position: absolute;
+      font-size:18px;
+      text-align:center;
+      font-weight:bold;
+    }
+    .box{
+      width:600px;
+      height:250px;
+      background:white;
+      right:200px;
+      top:350px;
+      position: absolute;
+      opacity:0.3;
+      display:none;
+    }
+  </style>
+
+  <button1 onclick="lattern1()">灯谜1</button1>
+  <button2 onclick="lattern2()">灯谜2</button2>
+  <button3 onclick="lattern3()">灯谜3</button3>
+  <button4 onclick="lattern4()">灯谜4</button4>
+  <button5 onclick="lattern5()">灯谜5</button5>
+  <button6 onclick="lattern6()">灯谜6</button6>
+  <div class="box"></div>
+
+</body>
+</html>
